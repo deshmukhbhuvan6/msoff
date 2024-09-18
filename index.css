@@ -18,7 +18,7 @@ a{
     color: black;
 }
 p{
-    font-size: 18px;
+    font-size: 14px;
 }
 h1{
     font-size: 4rem;
@@ -65,18 +65,18 @@ h1{
     flex-wrap: wrap;
     /* background-color: #f9f9f9;
     background-image: linear-gradient(315deg, #f9f9f9 0%, #f0f1f5 74%); */
-    min-height: 600vh;
-    padding-top: 10rem;
+    min-height: 100vh;
+    padding-top: 5rem;
 }
 .landing-section-left{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    max-width: 300px;
+    max-width: 100px;
     color: black;
 }
 .landing-section-left img{
-    width: 400px;
+    width: 300px;
     border-radius: 12px;
 }
 .landing-section-left h1 span{
