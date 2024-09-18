@@ -65,7 +65,7 @@ h1{
     flex-wrap: wrap;
     /* background-color: #f9f9f9;
     background-image: linear-gradient(315deg, #f9f9f9 0%, #f0f1f5 74%); */
-    min-height: 100vh;
+    min-height: 300vh;
     padding-top: 5rem;
 }
 .landing-section-left{
@@ -76,8 +76,8 @@ h1{
     color: black;
 }
 .landing-section-left img{
-    width: 600px;
-    border-radius: 24px;
+    width: 400px;
+    border-radius: 12px;
 }
 .landing-section-left h1 span{
     color: black;
@@ -86,8 +86,8 @@ h1{
     text-align: center;
 }
 .landing-section-right img{
-    width: 600px;
-    border-radius: 24px;
+    width: 400px;
+    border-radius: 12px;
 }
 
 
