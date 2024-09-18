@@ -38,7 +38,7 @@ h1{
 #navbar{
     width: 100%;
     background-color: transparent;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(1px);
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -115,7 +115,7 @@ h1{
     transition: 0.6s;
 }
 .service-card:hover{
-    background-color: black;
+    background-color: white;
     color: white;
 }
 .service-card h3{
@@ -138,6 +138,6 @@ h1{
         text-align: center;
     }
     .landing-section-right img{
-        width: 300px;
+        width: 500px;
     }
 }
