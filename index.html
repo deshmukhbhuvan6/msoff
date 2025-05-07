@@ -10,6 +10,17 @@
     <title>Support Team</title>
     <link rel="icon" href="looksalike.png">
     <link rel="stylesheet" href="index.css"/>
+    <script>
+    // JavaScript to toggle mobile menu
+    function toggleMenu() {
+        var menu = document.getElementById("mobileMenu");
+        if (menu.style.display === "none" || menu.style.display === "") {
+            menu.style.display = "block";  // Show the menu
+        } else {
+            menu.style.display = "none";   // Hide the menu
+        }
+    }
+</script>
   </head>
     <body>
      <!-- modal window-->
@@ -47,6 +58,54 @@
         </div>
     </div>
 </div>
+
+
+ 
+    <!-- Header Section -->
+    <div class="main-container">
+     
+    <!--header ---->
+
+    <!-- Header Section -->
+    <header class="py-3 new-color">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html"><img src="nlogo.png" alt="Logo" class="img-fluid" style="height: 60px;"></a>
+            </div>
+
+            <!-- Hamburger Menu Icon (Visible on Mobile) -->
+            <button class="navbar-toggler d-md-none" type="button" onclick="toggleMenu()">
+                <span class="navbar-toggler-icon">&#9776;</span> <!-- Hamburger Icon -->
+            </button>
+
+            <!-- Navigation (Visible on Desktop) -->
+            <nav class="d-none d-md-flex">
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-dark px-3">Home</a></li>
+                    <li class="nav-item"><a href="private policy.html" class="nav-link text-dark px-3">Privacy Policy</a></li>
+                    <li class="nav-item"><a href="terms and conditions.html" class="nav-link text-dark px-3">Terms & Conditions</a></li>
+                    <li class="nav-item"><a href="refund policy.html" class="nav-link text-dark px-3">Refund Policy</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Navigation (Hidden on Desktop, Visible on Mobile) -->
+            <nav id="mobileMenu" class="mobile-nav d-md-none">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-dark px-3">Home</a></li>
+                    <li class="nav-item"><a href="private policy.html" class="nav-link text-dark px-3">Privacy Policy</a></li>
+                    <li class="nav-item"><a href="terms and conditions.html" class="nav-link text-dark px-3">Terms & Conditions</a></li>
+                    <li class="nav-item"><a href="refund policy.html" class="nav-link text-dark px-3">Refund Policy</a></li>
+                </ul>
+            </nav>
+
+            <!-- Call Us Button -->
+            <div class="header-right d-flex align-items-center gap-3">
+                <a href="tel:1-833-392-5939"><button class="btn btn-custom">Call Us</button></a>
+            </div>
+        </div>
+    </header>
+    <!--end header-->
     <nav id="navbar">
         <div class="navbar-left">
             <img src="microsofttttt...main.png" alt="" />
